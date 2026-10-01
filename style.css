@@ -102,9 +102,7 @@ button { cursor: pointer; }
 /* ---------- Hero ---------- */
 .hero { position: relative; min-height: 100vh; min-height: 100svh; display: flex; align-items: center; color: var(--white); overflow: hidden; padding: calc(var(--nav-h) + 40px) 0 130px; background: var(--primary-dark); }
 .hero__bg { background-image: url(/flayercar2.png); }
-.hero__overlay { position: absolute; inset: 0; background:
-  linear-gradient(180deg, rgba(10,30,20,.55) 0%, rgba(10,30,20,.35) 40%, rgba(10,30,20,.78) 100%),
-  linear-gradient(90deg, rgba(20,72,46,.7) 0%, rgba(20,72,46,0) 70%); }
+.hero__overlay { background-image: url(/flayercar2.png);}
 .hero__content { position: relative; z-index: 2; }
 .hero__badge { display: inline-flex; align-items: center; gap: 8px; padding: 8px 16px; border-radius: 999px; background: rgba(255,255,255,.16); border: 1px solid rgba(255,255,255,.3); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); font-weight: 600; font-size: .88rem; margin-bottom: 22px; }
 .hero h1 { font-size: clamp(2.2rem, 6.4vw, 5rem); line-height: 1.08; font-weight: 800; letter-spacing: -.025em; max-width: 14ch; text-wrap: balance; text-shadow: 0 4px 30px rgba(0,0,0,.35); }
