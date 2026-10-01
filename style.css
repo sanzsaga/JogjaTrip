@@ -154,7 +154,7 @@ button { cursor: pointer; }
   repeating-linear-gradient(90deg, rgba(0,0,0,.06) 0 2px, transparent 2px 120px),
   linear-gradient(180deg, var(--secondary) 0%, var(--secondary-dark) 100%); }
 .section--leaf { background-color: var(--white);
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cpath d='M60 14c13 10 18 21 10 34-4 7-10 10-10 18 0-8-6-11-10-18-8-13-3-24 10-34z' fill='%231f6b45' fill-opacity='.06'/%3E%3C/svg%3E"); }
+  background-image: url("/flayercar2.png"); }
 
 /* ---------- Reveal (hanya satu animasi masuk yang halus) ---------- */
 .reveal { opacity: 0; transform: translateY(26px); transition: opacity .7s var(--ease), transform .7s var(--ease); transition-delay: var(--d, 0ms); }
